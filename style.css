@@ -1,12 +1,16 @@
-header {
+* {
+    outline: red dashed .5px;
+    /* margin: 0; */
+}
+
+.linkbar header {
     text-align: center;
-    background: url("images/lebron.png");
-    background-size: cover;
-    max-height: auto;
+    background: url("images/3image.jpg");
+    background-size: auto;
 }
   
 .linkbar a {
-    color: Black;
+    color: red;
 }
 .linkbar h1 { font-size: 70px;
          color: red;
@@ -17,24 +21,36 @@ header {
 
 }
 .linkbar li { display: inline;
-    padding: 0px 50px 0px 50px;
-    color: Blue;
-   
+    padding: 0px 70px 0px 70px;
+    background: Black;
+    border: 5px solid black;
 }
-img {
+#second-pic {
     margin: 0 auto;
     border-radius: 18px;
     max-width: 100%;
     max-height: 100%;
-  }
+}
 
 
 .P1 article {
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
-    background: red;
+    /* background: red; */
+    background: url("images/lebron.png");
+    background-size: contain;
+    background-repeat: none;
+    background-attachment: fixed;
+    /* overflow: scroll; */
   }
+.P1 p{
+    color: red;
+}
+.P1 h2{
+    color: red;
+    font-size: large;
+}
 .P2 article { 
     max-width: 500px;
     padding: 20px;
@@ -47,10 +63,7 @@ img {
     margin: 0 auto;
     background: red;
 }
-script { 
-    background: Black;
-    color: white;
-  }
+
 body {
   background: black;
   }
@@ -61,16 +74,65 @@ body {
   max-height: 25%;
   }
 @media (max-width: 500px) {
-    h1 {
-      font-size: 36px;
-      padding: 5px;
-      color: blue;
+    .linkbar header {
+        text-align: center;
+        background: url("images/3image.jpg");
+        background-size: auto;
+        max-height: auto;
     }
-    li {
-      padding: 5px;
-      display: block;
-      background: blue ;
+    .linkbar a {
+        color: Blue;
     }
-    article { background: blue;
+    .linkbar h1 { font-size: 60px;
+             color:blue;
+    }  
+    
+    .linkbar ul { padding: 25px;
+        background: blue;
+    
     }
-  }
+    .linkbar li { display: inline;
+        padding: 0px 10px 0px 10px;
+        background: Black;
+        border: 5px solid black;
+       
+    }
+    img {
+        margin: 0 auto;
+        border-radius: 18px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    
+    
+    .P1 article {
+        max-width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+        background: blue;
+        background: url("images/lebron.png");
+        background-attachment: fixed;
+      }
+    .P1 h2{
+        color: blue;
+    }
+    .P1 p{
+        color: blue;
+    }
+    .P2 article { 
+        max-width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+        background: blue;
+    }
+    .P3 article {
+        max-width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+        background: blue;
+    }
+    
+    body {
+      background: black;
+      }
+}
