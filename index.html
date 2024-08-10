@@ -65,7 +65,11 @@
         site! Thank you for visiting!!
       </p>
       <div class="comments">
-        <input type="comment" placeholder="Comment here:" />
+        <form id="commentForm">
+          <input type="text" id="commentInput" placeholder="Comment here:" />
+          <button type="submit">Post</button>
+        </form>
+        <div id="commentList"></div>
       </div>
     </article>
   </div>
