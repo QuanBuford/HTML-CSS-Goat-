@@ -1,7 +1,4 @@
-* {
-    outline: red dashed .5px;
-    /* margin: 0; */
-}
+
 
 .linkbar header {
     text-align: center;
@@ -40,7 +37,6 @@
     /* background: red; */
     background: url("images/lebron.png");
     background-size: contain;
-    background-repeat: none;
     background-attachment: fixed;
     /* overflow: scroll; */
   }
